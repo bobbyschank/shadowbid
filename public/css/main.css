@@ -1,2 +1,19 @@
 body {
-  background-color: #ff87a7; }
+  font-family: 'Hind', sans-serif; }
+
+.navbar {
+  background-color: #141618;
+  min-height: 86px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff; }
+
+.img-responsive {
+  width: 194px; }
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #141618;
+  color: #ffffff; }

@@ -1,3 +1,23 @@
+$header-footer-color: #141618;
+$headerFooterBackgroundColor: #ffffff;
+
 body {
-	background-color: #ff87a7;
+	font-family: 'Hind', sans-serif;
+}
+.navbar {
+	background-color: $header-footer-color;
+	min-height: 86px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: $headerFooterBackgroundColor;
+}
+.img-responsive {
+	width: 194px;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+    background-color: $header-footer-color;
+    color: $headerFooterBackgroundColor;
 }
