@@ -1,6 +1,11 @@
 body {
   font-family: 'Hind', sans-serif; }
 
+.hotdeals {
+  background-image: url("/images/amazonhotdeals.jpg");
+  background-size: cover;
+  height: 300px; }
+
 .navbar {
   background-color: #141618;
   min-height: 86px; }

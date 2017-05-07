@@ -15,8 +15,8 @@ function authenticatedUser(req, res, next) {
 	res.redirect('/');
 }
 
-router.route("/secret")
-	.get(authenticatedUser, usersController.secret);
+router.route("/myaccount")
+	.get(authenticatedUser, usersController.myaccount);
 
 router.route('/')
   .get(staticsController.home);
