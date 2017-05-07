@@ -22,7 +22,7 @@ body {
 }
 .footer {
 	width: 100%;
-	position: absolute;
+	position: relative;
     bottom: 0;
     background-color: $header-footer-color;
     color: $headerFooterBackgroundColor;
@@ -162,4 +162,7 @@ body {
 }
 .bidTitle {
     margin-bottom: 1em;
+}
+.expanded-graph {
+    width: 100%;
 }
