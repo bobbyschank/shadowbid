@@ -148,3 +148,18 @@ body {
         margin-right: 0;
     }
 }
+
+/*********************
+//BID WINDOW STYLING//
+*********************/
+@mixin bidIconSizing($height, $width, $margin) {
+    height: $height;
+    width: $width;
+    margin: $margin;
+}
+.bidIcon {
+    @include bidIconSizing(5em,5em,.5em);
+}
+.bidTitle {
+    margin-bottom: 1em;
+}
