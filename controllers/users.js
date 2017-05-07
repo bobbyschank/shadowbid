@@ -40,8 +40,9 @@ function getLogout(request, response, next) {
 }
 
 // Restricted page
-function secret(request, response){
-	response.json({hey: 'you'});
+function myaccount(request, response){
+	//response.json({hey: 'you'});
+	response.render('myaccount.ejs');
 }
 
 module.exports = {
@@ -50,5 +51,5 @@ module.exports = {
   getSignup: getSignup,
   postSignup: postSignup,
   getLogout: getLogout,
-  secret: secret
-}
+  myaccount: myaccount
+};
