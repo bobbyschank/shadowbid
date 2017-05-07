@@ -1,40 +1,11 @@
 <% include ./partials/header.ejs %>
 
+
+
 <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Menu
-                    </a>
-                </li>
-                <li>
-        	      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#">INSTAGRAM</a>
-                </li>
-                <li>
-                    <a href="#">FAQ</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-                <li>
-                    <a href="#">BID HISTORY</a>
-                </li>
-                <li>
-                    <a href="#">PROFILE</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-            </ul>
+
         </div>
         <!-- /#sidebar-wrapper -->
 
@@ -43,47 +14,51 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                    	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle</a>
+                    	
                         <h1>My Account</h1>
                     </div>
                 </div>
 
-			<div class="container">
-			  <ul class="nav nav-tabs">
-			    <li class="active"><a data-toggle="tab" href="#mybids">My Bids</a></li>
-			    <li><a data-toggle="tab" href="#watchlist">Watchlist</a></li>
-			    <li><a data-toggle="tab" href="#notifications">Notifications</a></li>
-			  </ul>
+						<div class="container">
+						  <ul class="nav nav-tabs">
+						    <li class="active"><a data-toggle="tab" href="#mybids">My Bids</a></li>
+						    <li><a data-toggle="tab" href="#watchlist">Watchlist</a></li>
+						    <li><a data-toggle="tab" href="#notifications">Notifications</a></li>
+						  </ul>
 
-			  <div class="tab-content">
-			    <div id="mybids" class="tab-pane fade in active">
-				    	<div class="dropdown">
-				    	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				    	    Collections
-				    	    <span class="caret"></span>
-				    	  </button>
-				    	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
-					    	  <li><a href="#">ALL</a></li>
-					    	  <li role="separator" class="divider"></li>
-				    	    <li><a href="#">Skateboards</a></li>
-				    	    <li><a href="#">Trucker Hats</a></li>
-				    	    <li><a href="#">Books</a></li>
-				    	  </ul>
-				    	</div>
-			      <h3>Open Bids</h3>
-				  <p>This is the open bids tab</p>
-			    </div>
+						  <div class="tab-content">
+						    <div id="mybids" class="tab-pane fade in active">
+							    	<div class="dropdown">
+							    	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							    	    Collections
+							    	    <span class="caret"></span>
+							    	  </button>
+							    	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
+								    	  <li><a href="#">ALL</a></li>
+								    	  <li role="separator" class="divider"></li>
+							    	    <li><a href="#">Skateboards</a></li>
+							    	    <li><a href="#">Trucker Hats</a></li>
+							    	    <li><a href="#">Books</a></li>
+							    	  </ul>
+							    	</div>
+						      <h3>Open Bids</h3>
+							  <p>This is the open bids tab</p>
 
-			    <div id="watchlist" class="tab-pane fade">
-			      <h3>Watchlist</h3>
-			      <p>This is the watchlist tab</p>
-			    </div>
-			    <div id="notifications" class="tab-pane fade">
-			      <h3>Notifications</h3>
-			      <p>This is the notifications tab</p>
-			    </div>
-			  </div>
-			</div>
+                              <div class="testData">
+                                  
+                              </div>
+						    </div>
+
+						    <div id="watchlist" class="tab-pane fade">
+						      <h3>Watchlist</h3>
+						      <p>This is the watchlist tab</p>
+						    </div>
+						    <div id="notifications" class="tab-pane fade">
+						      <h3>Notifications</h3>
+						      <p>This is the notifications tab</p>
+						    </div>
+						  </div>
+						</div>
 
             </div>
             <!-- container fluid -->
@@ -92,12 +67,7 @@
 
     </div>
 
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+
 
 
 

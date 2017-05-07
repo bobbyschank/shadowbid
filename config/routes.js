@@ -7,6 +7,7 @@ var methodOverride = require('method-override');
 var passport = require("passport");
 var usersController = require('../controllers/users');
 var staticsController = require('../controllers/statics');
+var bidsController = require('../controllers/bidController');
 
 function authenticatedUser(req, res, next) {
 	// If the user is authenticated, then we continue the execution
@@ -17,6 +18,9 @@ function authenticatedUser(req, res, next) {
 
 router.route("/myaccount")
 	.get(authenticatedUser, usersController.myaccount);
+
+router.route('/myaccount/item')
+  .get(bidsController.getBids);
 
 router.route('/')
   .get(staticsController.home);
