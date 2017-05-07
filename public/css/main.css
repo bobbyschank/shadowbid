@@ -1,0 +1,8 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  body .container {
+    margin: 4rem; }
+    body .container .row {
+      margin: 0; }
