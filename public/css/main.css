@@ -18,7 +18,7 @@ body {
 
 .footer {
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   background-color: #141618;
   color: #ffffff; }
@@ -116,3 +116,17 @@ body {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
+
+/*********************
+//BID WINDOW STYLING//
+*********************/
+.bidIcon {
+  height: 5em;
+  width: 5em;
+  margin: 0.5em; }
+
+.bidTitle {
+  margin-bottom: 1em; }
+
+.expanded-graph {
+  width: 100%; }

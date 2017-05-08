@@ -24,7 +24,7 @@ body {
 }
 .footer {
 	width: 100%;
-	position: absolute;
+	position: relative;
     bottom: 0;
     background-color: $header-footer-color;
     color: $headerFooterBackgroundColor;
@@ -152,4 +152,22 @@ body {
         position: relative;
         margin-right: 0;
     }
+}
+
+/*********************
+//BID WINDOW STYLING//
+*********************/
+@mixin bidIconSizing($height, $width, $margin) {
+    height: $height;
+    width: $width;
+    margin: $margin;
+}
+.bidIcon {
+    @include bidIconSizing(5em,5em,.5em);
+}
+.bidTitle {
+    margin-bottom: 1em;
+}
+.expanded-graph {
+    width: 100%;
 }
