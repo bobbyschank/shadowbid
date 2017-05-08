@@ -145,3 +145,7 @@ body {
 .price {
   font-size: 1.2em;
   font-weight: bold; }
+
+.numbers {
+  font-size: 30px;
+  font-weight: 800; }
