@@ -4,7 +4,7 @@ body {
 .hotdeals {
   background-image: url("/images/amazonhotdeals.jpg");
   background-size: cover;
-  height: 300px; }
+  height: 400px; }
 
 .navbar {
   background-color: #141618;
@@ -18,10 +18,13 @@ body {
 
 .footer {
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   background-color: #141618;
   color: #ffffff; }
+
+#menu-toggle:hover {
+  color: #00ccff; }
 
 #wrapper {
   padding-left: 0;
@@ -124,3 +127,6 @@ body {
 
 .bidTitle {
   margin-bottom: 1em; }
+
+.expanded-graph {
+  width: 100%; }

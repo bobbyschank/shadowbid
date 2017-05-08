@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
+
+</div>
     <nav class="navbar navbar-default navbar-style">
       <div class="container">
         <div class="navbar-header">
@@ -27,16 +29,52 @@
 
         <div class="collapse navbar-collapse" id="user-menu">
           <ul class="nav navbar-nav">
+            <li><a href="#menu-toggle" id="menu-toggle">Menu</a></li> 
             <li><a href="/myaccount">My Account</a></li>
             <% if (currentUser) {%>
             <li><a href="/logout">Logout <%= currentUser.local.email %></a></li>
             <% } else { %>
             <li><a href="/login">Login</a></li>
-            <li><a href="/signup">Signup</a></li> 
+            <li><a href="/signup">Signup</a></li>
             <% } %>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+    <div id="wrapper">
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li class="sidebar-brand">
+                  <a href="#">
+                      Menu
+                  </a>
+              </li>
+              <li>
+              <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+              </li>
+              <li>
+                  <a href="#">ABOUT</a>
+              </li>
+              <li>
+                  <a href="#">INSTAGRAM</a>
+              </li>
+              <li>
+                  <a href="#">FAQ</a>
+              </li>
+              <li>
+                  <a href="#">BLOG</a>
+              </li>
+              <li>
+                  <a href="#">BID HISTORY</a>
+              </li>
+              <li>
+                  <a href="#">PROFILE</a>
+              </li>
+              <li>
+                  <a href="#">CONTACT</a>
+              </li>
+          </ul>
+      </div>
 
     <main class="container">

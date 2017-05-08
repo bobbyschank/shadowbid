@@ -1,5 +1,6 @@
 $header-footer-color: #141618;
 $headerFooterBackgroundColor: #ffffff;
+$textColor: #00ccff;
 
 body {
 	font-family: 'Hind', sans-serif;
@@ -7,8 +8,9 @@ body {
 .hotdeals {
 	background-image: url('/images/amazonhotdeals.jpg');
 	background-size: cover;
-	height: 300px;
+	height: 400px;
 }
+
 
 .navbar {
 	background-color: $header-footer-color;
@@ -22,7 +24,7 @@ body {
 }
 .footer {
 	width: 100%;
-	position: absolute;
+	position: relative;
     bottom: 0;
     background-color: $header-footer-color;
     color: $headerFooterBackgroundColor;
@@ -30,6 +32,9 @@ body {
 
 // TOGGLE SIDEBAR STYLES
 
+#menu-toggle:hover {
+    color: $textColor;
+}
 
 #wrapper {
     padding-left: 0;
@@ -162,4 +167,7 @@ body {
 }
 .bidTitle {
     margin-bottom: 1em;
+}
+.expanded-graph {
+    width: 100%;
 }
