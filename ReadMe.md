@@ -57,9 +57,10 @@ Notes for Discussion:
 -Sass:
 	-Using Sass would aid in keeping styling consistent throughout the site. Since branding is a concern, especially given how many different competitors there are, having a unified theme will help to unite and strengthen your product image.
 
+-Passport:
+	-Good option for Users and authetification, easier to implement with a MongoDB database. Simple, straight to the point.
 
--Passport
--Gulp:
+-Gulp: Useful for ensuring that CSS styling will be be more universally compatible across browsers.
 
 -SQL:
 	-Because pricing can be volatile and change alot any data that is associated with an on line price or price history should be saved within its own data model which can then be merged into USER data fields such as bid-related data. SQL is great for cross-referencing data and would keep these fields organized while they are changing or being manipulated seperately. 
