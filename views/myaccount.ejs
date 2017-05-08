@@ -28,12 +28,13 @@
 
 			  <div class="tab-content">
 			    <div id="mybids" class="tab-pane fade in active">
-				    	<div class="dropdown">
+				    	<!-- COLLECTIONS -->
+				    	<div class="dropdown cfilter" class="tab-pane fade">
 				    	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 				    	    Collections
 				    	    <span class="caret"></span>
 				    	  </button>
-				    	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
+				    	  <ul class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenu1"> 
 					    	  <li><a href="#">ALL</a></li>
 					    	  <li role="separator" class="divider"></li>
 				    	    <li><a href="#">Skateboards</a></li>
@@ -41,6 +42,20 @@
 				    	    <li><a href="#">Books</a></li>
 				    	  </ul>
 				    	</div>
+				    	<!-- FILTERS -->
+		    	    	<div class="dropdown sfilter" class="tab-pane fade">
+		    	    	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+		    	    	    Sort by...
+		    	    	    <span class="caret"></span>
+		    	    	  </button>
+		    	    	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2"> 
+		    		    	  <li><a href="#">Price: Low to High</a></li>
+		    	    	    <li><a href="#">Price: High to Low</a></li>
+		    	    	    <li><a href="#">Newest</a></li>
+		    	    	    <li><a href="#">A-Z</a></li>
+		    	    	    <li><a href="#">Z-A</a></li>
+		    	    	  </ul>
+		    	    	</div>
 			      <h3>Open Bids</h3>
                   <% include ./partials/bidWindow.ejs %>
 				  <p>This is the open bids tab</p>

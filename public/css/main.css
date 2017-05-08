@@ -23,6 +23,12 @@ body {
   background-color: #141618;
   color: #ffffff; }
 
+.sfilter {
+  display: inline-block; }
+
+.cfilter {
+  display: inline-block; }
+
 #menu-toggle:hover {
   color: #00ccff; }
 
