@@ -37,6 +37,8 @@ body {
 }
 
 #wrapper {
+
+    width: 60%;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -170,4 +172,14 @@ body {
 }
 .expanded-graph {
     width: 100%;
+}
+
+.strength {
+    color: green;
+    font-weight: bold;
+}
+
+.price {
+   font-size: 1.2em;
+    font-weight: bold;
 }
