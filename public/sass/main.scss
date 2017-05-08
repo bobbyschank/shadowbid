@@ -30,6 +30,15 @@ body {
     color: $headerFooterBackgroundColor;
 }
 
+// FILTER STYLES
+
+.sfilter {
+    display: inline-block;
+}
+.cfilter {
+    display: inline-block;
+}
+
 // TOGGLE SIDEBAR STYLES
 
 #menu-toggle:hover {
